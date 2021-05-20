@@ -3,6 +3,7 @@
 # Copyright 2018 Denis Rothman MIT License. See LICENSE.
 
 import tensorflow as tf
+tf.disable_v2_behavior() 
 import numpy as np
 import os
 
